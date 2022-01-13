@@ -1,0 +1,86 @@
+/*
+Estilos da página index.html
+*/
+.centerTitulo{
+    display: column;
+    width: 10 Pem;
+    margin: 2px;
+    text-align: left;
+    line-height: 10 pem;
+    font-size: 20px;
+
+}
+.titulo{
+    font-style:italic;
+    font-weight:bold;
+}
+body{
+    background-image: url(../img/Timao.jpg);
+}
+.center {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li a:hover{
+
+    color: grey;
+}
+
+.p-30{
+    padding: 30 px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tm-social{
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem;
+}
+/*
+Estilos da página contato.html
+*/
+
+.flex-container {
+    display: column;
+    width: 10 Pem;
+    margin: 2px;
+    text-align: left;
+    line-height: 10 pem;
+    font-size: 20px;
+  }
+
+.container{
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+      color: aliceblue;
+      padding: 10rem;
+  }
+  .container2{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 10rem;
+}
+
+  .botao{
+      width: 30vw;
+  }
